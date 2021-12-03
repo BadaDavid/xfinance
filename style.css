@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(197, 226, 205) !important;
+}
+nav{
+    position: sticky;
+    top: 0px;
+}
+.logo{
+    width: 20%;
+    margin-right: 300px;
+    
+}
+.navbar{
+    display: inline-flex;
+    margin-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.item{
+    list-style: none !important;
+    margin: 20px 0;
+}
+.nav{
+    text-decoration: none !important;
+    font-size: 20px;
+    color: rgb(38,50,56);
+}
+.nav:hover{
+    color: rgb(138, 177, 163);
+}
+
+.sub-menu{
+    display: none;
+    font-family: cursive;
+    margin-left: 22px;
+    font-size: 18px;
+    transition: 5s;
+    background-color: rgba(159, 231, 209, 0.678);
+    padding: 0px 10px;
+}
+.sub-menu li{
+    list-style: none;
+    padding: 6px 0px;
+}
+.sub-menu li a{
+    text-decoration: none !important;
+    color: rgb(32, 32, 32);
+    
+    
+}
+.sub-menu li a:hover{
+    color: rgb(68, 68, 68);
+}
+.account:hover .sub-menu{
+    display: block;
+    position: fixed;
+
+}
+.join{
+    font-size: 65px;
+    font-weight: 1000px;
+}
+.get{
+    background-color: rgb(38,50,56);
+    padding: 15px 20px;
+    border-radius: 40px;
+    font-size: 20px;
+    text-decoration: none !important;
+    color: white;
+    transition: 0.5s;
+}
+.get:hover{
+    background-color: rgb(43, 245, 184);
+    color: white;
+}
+.sections{
+    background-color: white;
+    border: rgb(43, 245, 184) solid 1px;
+    border-radius: 50px;
+   
+}
+.text1{
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+.text2{
+    margin-bottom: 10px;
+}
+.svg{
+    margin-top: 20px;
+}
+.logo1{
+    margin-top: 50px;
+}
+.login{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 20px;
+}
+.input1{
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+.input1:focus{
+    border: none;
+    outline: none;
+}
+.login1{
+    background-color: rgb(170, 231, 213);
+}
+.icon{
+    border-right: solid black 1px;
+    padding-right: 10px;
+}
+.login_button{
+    background-color: rgb(40,167,69);
+    padding: 10px 180px ;
+    margin-left: 55px;
+    border-radius: 20px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    outline: none;
+    border: none;
+}
+.account{
+    margin-left: 55px;
+    transition: 0.5s;
+}
+.sign{
+    text-decoration: none !important;
+}
+.register{
+    font-size: 30px;
+}
+.sign_button{
+    background-color: rgb(13, 80, 124);
+    padding: 10px 180px ;
+    margin-left: 350px;
+    border-radius: 20px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    outline: none;
+    border: none;
+}
+.account1{
+    margin-left: 350px;
+}
